@@ -1,9 +1,6 @@
 import React from 'react';
 
 class AddContact extends React.Component{
-    constructor(props){
-        super(props);
-    }
 
     render(){
         return (
