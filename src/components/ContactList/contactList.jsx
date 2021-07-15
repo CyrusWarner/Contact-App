@@ -17,7 +17,7 @@ const ContactList = (props) => {
     return (
         <div class="main">
             <h2>Contact List
-                <Link to="/add">
+                <Link to="/add"> {/* LINKS US BACK TO THE HOMEPAGE */}
                     <button className="ui button blue">Add Contact</button>
                 </Link>
 

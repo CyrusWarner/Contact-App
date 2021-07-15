@@ -53,7 +53,10 @@ function App() {
                     getContactId={removeContactHandler} 
                     />)} 
                     />
-                    <Route path="/contact/:id" component={ContactDetail}></Route>
+                    <Route 
+                    path="/contact/:id" 
+                    component={ContactDetail}>
+                    </Route> {/* Since if is referenced in link path :id is used and displayed in browser as url path */}
 
                 </Switch>
                {/* <AddContact addContactHandler={addContactHandler}/> */}
